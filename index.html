@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web development projects, skills, and experience">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, responsive design">
+    <meta name="author" content="Your Name">
+    
+    <title>Your Name - Web Developer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header with Navigation -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <h1 class="logo">Kevin Guerrero</h1>
+                <ul class="nav-menu">
+                    <li><a href="#about" aria-label="About section">About</a></li>
+                    <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                    <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+                    <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h1 id="hero-heading">Hi, I'm <span class="highlight">Kevin Guerrero</span></h1>
+                <p class="hero-subtitle">In the process to be a Full Stack Web Developer</p>
+                <p class="hero-description">I try to create beautiful, responsive websites and applications that solve real-world problems.</p>
+                <a href="#projects" class="cta-button" aria-label="View my projects">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <article>
+                    <p>I'm a passionate web developer with expertise in modern web technologies. I love creating user-friendly, accessible, and performant web applications that make a difference.</p>
+                    <p>With experience in both front-end and back-end development, I bring ideas to life through clean code and thoughtful design. I'm constantly learning new technologies and best practices to deliver high-quality solutions.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                    <p>All the previous text was generated using AI. :D</p>
+                    <p>The next part of Projects Sections also was generated using AI, so don't be surprised if you see some weird things.</p>
+                    <p>And also the links will not redirect you to another website or page. (Only the GitHub and LinkedIn links)</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="" 
+                                 alt="Screenshot of E-Commerce Platform showing product listings and shopping cart" 
+                                 loading="lazy">
+                            <figcaption>E-Commerce Platform</figcaption>
+                        </figure>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View E-Commerce Platform live demo">Live Demo</a>
+                            <a href="#" class="project-link" aria-label="View E-Commerce Platform source code">Source Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="" 
+                                 alt="Screenshot of Task Manager application showing task lists and progress tracking" 
+                                 loading="lazy">
+                            <figcaption>Task Manager App</figcaption>
+                        </figure>
+                        <h3>Task Manager Application</h3>
+                        <p>A productivity app that helps users organize tasks with drag-and-drop functionality, priority levels, and deadline reminders. Built with Vue.js and Firebase.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Vuetify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View Task Manager live demo">Live Demo</a>
+                            <a href="#" class="project-link" aria-label="View Task Manager source code">Source Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="" 
+                                 alt="Screenshot of Weather Dashboard showing current weather and forecast" 
+                                 loading="lazy">
+                            <figcaption>Weather Dashboard</figcaption>
+                        </figure>
+                        <h3>Weather Dashboard</h3>
+                        <p>A responsive weather application that displays current conditions and 5-day forecasts using OpenWeatherMap API. Features location search and geolocation support.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View Weather Dashboard live demo">Live Demo</a>
+                            <a href="#" class="project-link" aria-label="View Weather Dashboard source code">Source Code</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading">Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5 & Semantic Markup</li>
+                            <li>CSS3 & Flexbox/Grid</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React & Vue.js</li>
+                            <li>Responsive Design</li>
+                            <li>Accessibility (WCAG 2.1)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js & Express</li>
+                            <li>Python & Django</li>
+                            <li>RESTful APIs</li>
+                            <li>GraphQL</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Docker</li>
+                            <li>AWS & Cloud Services</li>
+                            <li>Agile Methodologies</li>
+                            <li>SEO Best Practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get In Touch</h2>
+                <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                
+                <form action="#" method="POST" class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Full Name <span aria-label="required">*</span></label>
+                        <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-error">
+                        <span id="name-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error">
+                        <span id="email-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message <span aria-label="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" required aria-required="true" aria-describedby="message-error"></textarea>
+                        <span id="message-error" class="error-message" role="alert" aria-live="polite"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Other Ways to Connect</h3>
+                    <ul>
+                        <li><a href="mailto:your.email@example.com" aria-label="Send email">your.email@example.com</a></li>
+                        <li><a href="https://github.com/GuerreroKevin" aria-label="Visit GitHub profile" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/kevinguerreror" aria-label="Visit LinkedIn profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2024 Kevin Guerrero. All rights reserved.</p>
+            <p>Built with semantic HTML, accessibility, and SEO best practices. And AI.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
